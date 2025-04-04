@@ -13,6 +13,7 @@ steps:
   - script: |
       npm install
       npm install express
+      npm ci
       npm run build
     displayName: 'Install dependencies and build'
 
